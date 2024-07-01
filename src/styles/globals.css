@@ -1,0 +1,13 @@
+@import url("./fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-[IranYekan];
+}
+
+body {
+  @apply bg-gray-200 text-gray-700;
+}
